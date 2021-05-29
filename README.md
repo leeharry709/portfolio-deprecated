@@ -6,6 +6,8 @@ I am a driven young professional exploring a developing career in data science a
 
 What you will see in this portfolio are projects I have used for work. Some of the lines have been redacted due to the confidentiality of my work. These projects capture my skills in data cleaning, visualization, natural language processing, and I am excited to learn and apply more into future projects.
 
+All of these projects were developed in python.
+
 Sincerely,
 
 Harold Lee
