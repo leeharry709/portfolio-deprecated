@@ -52,7 +52,7 @@ with open('emotions.txt', 'r') as file:
 # Count frequency of emotions
 emotion_count = Counter(emotion_list)
 
-
+# Display histogram of emotions
 fig,ax1 = plt.subplots()
 ax1.bar(emotion_count.keys(), emotion_count.values())
 fig.autofmt_xdate()
