@@ -28,7 +28,6 @@ def query_to_txt(text_query, count):
         print('failed on_status,', str(e))
     
     
-# X is number of tweets to be retrieved
 text_query = 'donald trump'
 count = 200
 
