@@ -1,9 +1,4 @@
 import tweepy
-import pandas as pd
-import time
-import os
-
-
 
 consumer_key = '--REDACTED--'
 consumer_secret = '--REDACTED--'
