@@ -3,7 +3,7 @@ I am a driven young professional exploring a developing career in data science a
 
 What you will see in this portfolio are some projects I have used for work as well as for my own personal development.
 
-![](https://github.com/leeharry709/word_clock/blob/main/media/0140s.png?raw=true)
+![](https://github.com/leeharry709/word_clock/blob/main/media/1725.PNG?raw=true)
 
 # [Project 1: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
 Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation
