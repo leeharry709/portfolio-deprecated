@@ -29,7 +29,7 @@ else:
     print('\nNot ripe mango')
 ```
 
-# [Project 3: Data Visualization/pandas Dataframe and Styling](https://github.com/leeharry709/word_clock)
+# [Project 3: Data Visualization/pandas Dataframe and Styling - Word Clock](https://github.com/leeharry709/word_clock)
 Displays a word clock with the current time, day of week, and if it's AM or PM.
 
 This word clock works by displaying different times per 5 minute intervals. For example, 2:55pm would say "IT IS FIVE TO THREE", but 2:59pm would also say the same. So, I made a bunch of if and elif statements that displayed the correct words based on what time interval of 5 minutes it was between.
