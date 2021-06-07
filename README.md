@@ -61,10 +61,11 @@ plt.axis("off")
 plt.show()
 ```
 
-# Conclusion
-These projects capture my skills in data cleaning, visualization, natural language processing, machine learning, and I am excited to learn and apply more technical skills into future projects. I am passionate and driven to succeed in growing my career in data analytics and data science.
-
-
-Sincerely,
-
-Harold Lee
+<p>
+  <a href = "https://www.linkedin.com/in/leeharry709/">
+    <img src="https://raw.githubusercontent.com/leeharry709/about-me/main/media/linkedin.png">
+  </a>
+  <a href = "https://github.com/leeharry709">
+    <img src="https://raw.githubusercontent.com/leeharry709/about-me/main/media/github.png">
+  </a>
+</p>
