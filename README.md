@@ -1,7 +1,7 @@
-# Introduction - Harold Lee
-I am a driven young professional exploring a developing career in data science and analytics. As the world of data grows exponentially, I aspire to apply and expand my technical skills to organize, visualize, and manipulate it in coherent and cohesive ways. I hope that my skills will help companies and individuals make sense of large data and apply their knowledge and skills to make meaningful differences in society and this world.
-
-What you will see in this portfolio are some projects I have used for work as well as for my own personal development.
+<p align="center">
+  <a href = "https://github.com/leeharry709/about-me">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href = "https://leeharry709.github.io/portfolio">Portfolio</a>
+</p>
 
 ![](https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png)
 
