@@ -17,6 +17,15 @@ This program utilizes machine learning through tensorflow and a database of 427 
 
 Primarily, the program detects how much of either green, yellow, or red is found on the mango. Based on how much green is missing and red is showing, the program can tell if a mango is ripe or not. The major limiting factor is how much yellow is showing. For mangos, yellow tends to be both ripe and unripe depending on how much green or red is showing. If too much yellow is showing, the program will classify it as unripe. Therefore, it is important to submit a picture that best shows all of the colors on the mango.
 
+```
+new_output = model.predict(new_input)
+output_index = int(new_output[0][0])
+
+if output_index == 0:
+    print('\nRipe mango')
+else:
+    print('\nNot ripe mango')
+```
 
 # [Project 3: Natural Language Processing - Work Projects](https://github.com/leeharry709/work-projects)
 Projects made for work. Due to the confidentiality of the work, I am unable to provide any further media other than the code.
@@ -29,6 +38,14 @@ This program would comb though the job descriptions folder and further into each
 
 This program would retrieve the text_dumpster.txt files in the selected department's job description folder and begin to process it. The program would first remove punctuations and then stop words. Then, it would create a list of the remaining words. Using NLTK, it would then make a list of the bigrams as well. Combining the two lists together, it would create a dictionary based on the frequency of each word and bigram and display it on a wordcloud.
 Skills Compiler.py reads through job descriptions from my current company and brings out the KSAs (knowledge, skills, and abilites) into a text file. This is to be used in conjunction with Text Analyzer - Word Cloud.py, which then uses natural language processing to compile the most commonly appearing words and bigrams and displays it on a word cloud.
+
+```
+wordcloud = WordCloud(width=1600, height=800).generate(', '.join(filtered))
+plt.figure(figsize=(20,10))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+```
 
 # Conclusion
 These projects capture my skills in data cleaning, visualization, natural language processing, machine learning, and I am excited to learn and apply more technical skills into future projects.
