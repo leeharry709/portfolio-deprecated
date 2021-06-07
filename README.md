@@ -4,7 +4,7 @@
 
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png">
+  <img width = "600" height= "600" src="https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png">
 </p>
 
 # [Project 1: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
