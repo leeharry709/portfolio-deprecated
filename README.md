@@ -30,7 +30,7 @@ This program would comb though the job descriptions folder and further into each
 This program would retrieve the text_dumpster.txt files in the selected department's job description folder and begin to process it. The program would first remove punctuations and then stop words. Then, it would create a list of the remaining words. Using NLTK, it would then make a list of the bigrams as well. Combining the two lists together, it would create a dictionary based on the frequency of each word and bigram and display it on a wordcloud.
 Skills Compiler.py reads through job descriptions from my current company and brings out the KSAs (knowledge, skills, and abilites) into a text file. This is to be used in conjunction with Text Analyzer - Word Cloud.py, which then uses natural language processing to compile the most commonly appearing words and bigrams and displays it on a word cloud.
 
-
+# Conclusion
 These projects capture my skills in data cleaning, visualization, natural language processing, machine learning, and I am excited to learn and apply more technical skills into future projects.
 
 
