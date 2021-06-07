@@ -34,7 +34,7 @@ Displays a word clock with the current time, day of week, and if it's AM or PM.
 
 This word clock works by displaying different times per 5 minute intervals. For example, 2:55pm would say "IT IS FIVE TO THREE", but 2:59pm would also say the same. So, I made a bunch of if and elif statements that displayed the correct words based on what time interval of 5 minutes it was between.
 
-Displaying the word clock meant bring the information from one dataframe into another. I took the information from the light_array dataframe by reading which cells had 1s and which cells had 0s and styled the text in the text_array dataframe accordingly. Below are some examples of the output.
+Displaying the word clock meant bring the information from one dataframe into another. I took the information from the light_array dataframe by reading which cells had 1s and which cells had 0s and styled the text in the text_array dataframe accordingly.
 
 ![](https://github.com/leeharry709/word_clock/blob/main/media/1725s.png?raw=true)
 
