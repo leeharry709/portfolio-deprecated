@@ -6,14 +6,14 @@ What you will see in this portfolio are some projects I have used for work as we
 ![](https://github.com/leeharry709/word_clock/blob/main/media/1725.PNG?raw=true)
 
 # [Project 1: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
-Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation
+Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation.
 
 This was an exploratory data analysis of data analyst and data science jobs datasets from kaggle.com by user Larxel. The user scraped data from glassdoor for the job queries "data analyst" and "data scientist" and posted them as csv files. Using these csv files, I began cleaning and visualizing them on Jupyter Notebook using seaborn and matplotlib.
 
 ![](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-/blob/main/media/download%20(1).png?raw=true)
 
 # [Project 2: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
-Determines if submitted mango image is ripe or not based on database of mangos at different ripeness
+Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
 
 This program utilizes machine learning through tensorflow and a database of 427 ripe mangos and 1003 unripe (or green) mangos. By first training a model to differentiate between what is a "green mango" versus what is a "ripe mango", the user can input a filepath (ex: ripe mango.jpg) and it will predict whether or not it is a ripe mango based on its color.
 
@@ -30,6 +30,8 @@ else:
 ```
 
 # [Project 3: Data Visualization/pandas Dataframe and Styling](https://github.com/leeharry709/word_clock)
+Displays a word clock with the current time, day of week, and if it's AM or PM.
+
 This word clock works by displaying different times per 5 minute intervals. For example, 2:55pm would say "IT IS FIVE TO THREE", but 2:59pm would also say the same. So, I made a bunch of if and elif statements that displayed the correct words based on what time interval of 5 minutes it was between.
 
 Displaying the word clock meant bring the information from one dataframe into another. I took the information from the light_array dataframe by reading which cells had 1s and which cells had 0s and styled the text in the text_array dataframe accordingly. Below are some examples of the output.
