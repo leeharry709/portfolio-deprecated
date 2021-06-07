@@ -8,7 +8,7 @@ What you will see in this portfolio are some projects I have used for work as we
 # [Project 1: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
 Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation.
 
-This was an exploratory data analysis of data analyst and data science jobs datasets from kaggle.com by user Larxel. The user scraped data from glassdoor for the job queries "data analyst" and "data scientist" and posted them as csv files. Using these csv files, I began cleaning and visualizing them on Jupyter Notebook using seaborn and matplotlib.
+This was an exploratory data analysis of data analyst and data science jobs datasets from kaggle.com by user Larxel. The user scraped data from glassdoor for the job queries "data analyst" and "data scientist" and posted them as csv files. Using these csv files, I began cleaning the data and visualizing them on Jupyter Notebook using seaborn and matplotlib.
 
 ![](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-/blob/main/media/download%20(1).png?raw=true)
 
