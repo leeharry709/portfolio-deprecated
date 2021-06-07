@@ -1,9 +1,11 @@
 <p align="center">
   <a href = "https://github.com/leeharry709/about-me">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href = "https://leeharry709.github.io/portfolio">Portfolio</a>
-</p>
 
-![](https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png)
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png">
+</p>
 
 # [Project 1: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
 Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation.
