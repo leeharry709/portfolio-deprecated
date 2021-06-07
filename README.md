@@ -59,7 +59,7 @@ plt.show()
 ```
 
 # Conclusion
-These projects capture my skills in data cleaning, visualization, natural language processing, machine learning, and I am excited to learn and apply more technical skills into future projects.
+These projects capture my skills in data cleaning, visualization, natural language processing, machine learning, and I am excited to learn and apply more technical skills into future projects. I am passionate and driven to succeed in growing my career in data analytics and data science.
 
 
 Sincerely,
