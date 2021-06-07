@@ -1,5 +1,3 @@
-# portfolio
-
 # Introduction - Harold Lee
 I am a driven young professional exploring a developing career in data science and analytics. As the world of data grows exponentially, I aspire to apply and expand my technical skills to organize, visualize, and manipulate it in coherent and cohesive ways. I hope that my skills will help companies and individuals make sense of large data and apply their knowledge and skills to make meaningful differences in society and this world.
 
