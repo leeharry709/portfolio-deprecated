@@ -26,6 +26,9 @@ Ideally, this type of model would be used to generate images where it is hard to
 
 <img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20.png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)" width="70" height="70" align="left">
 
+
+
+
 # [Project 3: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
 Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
 
