@@ -26,8 +26,8 @@ Ideally, this type of model would be used to generate images where it is hard to
 
 ![](https://github.com/leeharry709/about-me/blob/main/media/download.png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)
 
-Distribution of Euclidian distance (excluding pure-white pixels)
-[[](https://raw.githubusercontent.com/leeharry709/about-me/main/media/download%20(5).png)](https://raw.githubusercontent.com/leeharry709/about-me/main/media/download%20(5).png)
+Distribution of Euclidian distance (excluding pure-white pixels) in input image
+![](https://raw.githubusercontent.com/leeharry709/about-me/main/media/download%20(5).png)
 
 # [Project 3: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
 Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
