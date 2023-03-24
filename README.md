@@ -24,8 +24,10 @@ This program determines which pixels are the furthest from pure red and begins t
 
 Ideally, this type of model would be used to generate images where it is hard to scrape data for. When google searching for ripe mangos, it is hard to find a ton of accurate pictures of ripe mangos, especially since there are many types of mangos with many different ways of distinguishing ripeness. By only using the best pictures of ripe mangos, the red is incrementally covered up, imitating less ripeness. This would only be effective for mangos that are red when ripe, limiting the usage of this model.
 
-![](https://github.com/leeharry709/about-me/blob/main/media/download%20.png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)
+![](https://github.com/leeharry709/about-me/blob/main/media/download.png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)![](https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)
 
+Distribution of Euclidian distance (excluding pure-white pixels)
+![](https://github.com/leeharry709/about-me/main/media/download%20(5).png?raw=true)
 
 # [Project 3: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
 Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
