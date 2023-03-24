@@ -15,7 +15,17 @@ This was an exploratory data analysis of data analyst and data science jobs data
 
 ![](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-/blob/main/media/download%20(1).png?raw=true)
 
-# [Project 2: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
+# [Project 2: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/ripe-mango-detector)
+Incrementally replaces pixels in a 100x100 image of a mango, prioritizing colors farthest from red.
+
+When looking at a single pixel of color, you get an array of 3 values (RGB). Pure red is [255, 0, 0], and every color has it's own unique combination of R, G, and B. By using the formula for Euclidian distance, you can effectively plot the RGB color on a 3 dimensional plot and find the distance between two colors.
+
+This program determines which pixels are the furthest from pure red and begins to mask from there while avoiding pure white, which is the color of the background and not the mango. By incrementally covering the color of the mango, we can create thresholds and classify each image by asking the question "If the color of the mango is < 50% red, then it is not ripe."
+
+Ideally, this type of model would be used to generate images where it is hard to scrape data for. When google searching for ripe mangos, it is hard to find a ton of accurate pictures of ripe mangos, especially since there are many types of mangos with many different ways of distinguishing ripeness. By only using the best pictures of ripe mangos, the red is incrementally covered up, imitating less ripeness. This would only be effective for mangos that are red when ripe, limiting the usage of this model.
+<img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20.png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)" width="70" height="70" align="left">
+
+# [Project 3: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
 Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
 
 This program utilizes machine learning through tensorflow and a database of 427 ripe mangos and 1003 unripe (or green) mangos. By first training a model to differentiate between what is a "green mango" versus what is a "ripe mango", the user can input a filepath (ex: ripe mango.jpg) and it will predict whether or not it is a ripe mango based on its color.
