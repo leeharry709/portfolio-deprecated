@@ -15,7 +15,11 @@ This was an exploratory data analysis of data analyst and data science jobs data
 
 ![](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-/blob/main/media/download%20(1).png?raw=true)
 
-# [Project 2: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/ripe-mango-detector)
+# Project 2: Natural Language Processing - Sentiment Analysis, BERT Model Training, Bias Classification
+
+TBD
+
+# [Project 3: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/ripe-mango-detector)
 Incrementally replaces pixels in a 100x100 image of a mango, prioritizing colors farthest from red.
 
 When looking at a single pixel of color, you get an array of 3 values (RGB). Pure red is [255, 0, 0], and every color has it's own unique combination of R, G, and B. By using the formula for Euclidian distance, you can effectively plot the RGB color on a 3 dimensional plot and find the distance between two colors.
@@ -29,14 +33,14 @@ Ideally, this type of model would be used to generate images where it is hard to
 Distribution of Euclidian distance (excluding pure-white pixels) in input image
 ![](https://raw.githubusercontent.com/leeharry709/about-me/main/media/download%20(5).png)
 
-# [Project 3: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
+# [Project 4: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
 Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
 
 This program utilizes machine learning through tensorflow and a database of 427 ripe mangos and 1003 unripe (or green) mangos. By first training a model to differentiate between what is a "green mango" versus what is a "ripe mango", the user can input a filepath (ex: ripe mango.jpg) and it will predict whether or not it is a ripe mango based on its color.
 
 Primarily, the program detects how much of either green, yellow, or red is found on the mango. Based on how much green is missing and red is showing, the program can tell if a mango is ripe or not. The major limiting factor is how much yellow is showing. Yellow mangoes are ambiguous in their ripeness, so the model primarily looks at the how much of the mango is red or green. If there is an ample amount of red and low amount of green, the mango is classified as ripe. The ambiguity in yellow mangos is evident when running the program using "ripe mango 2.jpg" shown on the left which even has a very-slight green tint<img src="https://raw.githubusercontent.com/leeharry709/ripe-mango-detector/main/ripe%20mango%202.jpg" width="70" height="70" align="left">. The program will classify it as "unripe" since there is a low percentage of red showing as well as a low percentage of green. It is important to submit images that best capture the mango's color distribution to get an accurate result.
 
-# [Project 3: Data Visualization/pandas Dataframe and Styling - Word Clock](https://github.com/leeharry709/word_clock)
+# [Project 5: Data Visualization/pandas Dataframe and Styling - Word Clock](https://github.com/leeharry709/word_clock)
 Displays a word clock with the current time, day of week, and if it's AM or PM.
 
 This word clock works by displaying different times per 5 minute intervals. For example, 2:55pm would say "IT IS FIVE TO THREE", but 2:59pm would also say the same. Displaying the word clock meant bring the information from one dataframe into another. I took the information from the light_array dataframe by reading which cells had 1s and which cells had 0s and styled the text in the text_array dataframe accordingly.
@@ -55,33 +59,3 @@ This word clock works by displaying different times per 5 minute intervals. For 
     styled_df1 = df1.style.apply(lambda x: df2.applymap(light_up), axis=None).set_properties(**{'border-color': '#202020', 'background-color': '#202020','width':'75px','height':'75px','font-size':'25pt','text-align': 'center'})
     display(styled_df1)
 ```
-
-# [Project 4: Natural Language Processing - Work Projects](https://github.com/leeharry709/work-projects)
-Projects made for work. Due to the confidentiality of the work, I am unable to provide any further media other than the code.
-
--Skills Compiler.py
-
-This program combed through each deparment's job descriptions, parsed the responsibilities and skills, and compiled them into a text file called "text_dumpster.txt".
-
--Text Analyzer.py
-
-This program would retrieve the text_dumpster.txt files in the selected department's job description folder and begin to process it. The program would preprocess the words. Then, using NLTK, it would make a list of words and bigrams. Combining the two lists together, it would create a dictionary based on the frequency of each word and bigram and display it on a wordcloud.
-
-```
-wordcloud = WordCloud(width=1600, height=800).generate(', '.join(filtered))
-plt.figure(figsize=(20,10))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis("off")
-plt.show()
-```
-
-<p>
-  <a href = "https://www.linkedin.com/in/leeharry709/">
-    <img src="https://raw.githubusercontent.com/leeharry709/about-me/main/media/linkedin.png">
-  </a>
-  <a href = "https://github.com/leeharry709">
-    <img src="https://raw.githubusercontent.com/leeharry709/about-me/main/media/github.png">
-  </a>
-  <img src="https://raw.githubusercontent.com/leeharry709/about-me/main/media/email.png">
-  leeharry709@outlook.com
-</p>
