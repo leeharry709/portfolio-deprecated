@@ -24,7 +24,9 @@ This program determines which pixels are the furthest from pure red and begins t
 
 Ideally, this type of model would be used to generate images where it is hard to scrape data for. When google searching for ripe mangos, it is hard to find a ton of accurate pictures of ripe mangos, especially since there are many types of mangos with many different ways of distinguishing ripeness. By only using the best pictures of ripe mangos, the red is incrementally covered up, imitating less ripeness. This would only be effective for mangos that are red when ripe, limiting the usage of this model.
 
-<img src="(https://raw.githubusercontent.com/leeharry709/about-me/blob/main/media/download%20.png)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)" width="70" height="70" align="left">
+![](https://raw.githubusercontent.com/leeharry709/about-me/blob/main/media/download%20.png)" width="70" height="70" align="left">
+![](https://github.com/leeharry709/about-me/blob/main/media/download%20(1).png?raw=true)" width="70" height="70" align="left">
+<img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(2).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(3).png?raw=true)" width="70" height="70" align="left"><img src="(https://github.com/leeharry709/about-me/blob/main/media/download%20(4).png?raw=true)" width="70" height="70" align="left">
 
 
 # [Project 3: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
