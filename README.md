@@ -8,18 +8,7 @@
   <img width = "600" height= "600" src="https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png">
 </p>
 
-# [Project 1: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
-Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation.
-
-This was an exploratory data analysis of data analyst and data science jobs datasets from kaggle.com by user Larxel. The user scraped data from glassdoor for the job queries "data analyst" and "data scientist" and posted them as csv files. Using these csv files, I began cleaning the data and visualizing them on Jupyter Notebook. Using seaborn and matplotlib, I was able to display charts and pivot tables to that showed results such as correlation between categories, locations that appeared most frequently, and average salaries based on job title.
-
-![](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-/blob/main/media/download%20(1).png?raw=true)
-
-# Project 2: Natural Language Processing - Sentiment Analysis, BERT Model Training, Bias Classification
-
-TBD
-
-# [Project 3: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/ripe-mango-detector)
+# [Project 1: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/ripe-mango-detector)
 Incrementally replaces pixels in a 100x100 image of a mango, prioritizing colors farthest from red.
 
 When looking at a single pixel of color, you get an array of 3 values (RGB). Pure red is [255, 0, 0], and every color has it's own unique combination of R, G, and B. By using the formula for Euclidian distance, you can effectively plot the RGB color on a 3 dimensional plot and find the distance between two colors.
@@ -33,29 +22,20 @@ Ideally, this type of model would be used to generate images where it is hard to
 Distribution of Euclidian distance (excluding pure-white pixels) in input image
 ![](https://raw.githubusercontent.com/leeharry709/about-me/main/media/download%20(5).png)
 
-# [Project 4: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
+# [Project 2: Machine Learning - Ripe Mango Detector](https://github.com/leeharry709/ripe-mango-detector)
 Determines if submitted mango image is ripe or not based on database of mangos at different ripeness.
 
 This program utilizes machine learning through tensorflow and a database of 427 ripe mangos and 1003 unripe (or green) mangos. By first training a model to differentiate between what is a "green mango" versus what is a "ripe mango", the user can input a filepath (ex: ripe mango.jpg) and it will predict whether or not it is a ripe mango based on its color.
 
 Primarily, the program detects how much of either green, yellow, or red is found on the mango. Based on how much green is missing and red is showing, the program can tell if a mango is ripe or not. The major limiting factor is how much yellow is showing. Yellow mangoes are ambiguous in their ripeness, so the model primarily looks at the how much of the mango is red or green. If there is an ample amount of red and low amount of green, the mango is classified as ripe. The ambiguity in yellow mangos is evident when running the program using "ripe mango 2.jpg" shown on the left which even has a very-slight green tint<img src="https://raw.githubusercontent.com/leeharry709/ripe-mango-detector/main/ripe%20mango%202.jpg" width="70" height="70" align="left">. The program will classify it as "unripe" since there is a low percentage of red showing as well as a low percentage of green. It is important to submit images that best capture the mango's color distribution to get an accurate result.
 
-# [Project 5: Data Visualization/pandas Dataframe and Styling - Word Clock](https://github.com/leeharry709/word_clock)
-Displays a word clock with the current time, day of week, and if it's AM or PM.
+# Project 3: Natural Language Processing - Sentiment Analysis/Classification & BERT Model Training
 
-This word clock works by displaying different times per 5 minute intervals. For example, 2:55pm would say "IT IS FIVE TO THREE", but 2:59pm would also say the same. Displaying the word clock meant bring the information from one dataframe into another. I took the information from the light_array dataframe by reading which cells had 1s and which cells had 0s and styled the text in the text_array dataframe accordingly.
-```
-    def light_up(s):
-        if s == 0:
-            light = 'color: #353535'
-        elif s == 1:
-            light = 'color: white'
-        elif s == 2:
-            light = 'color: red'
-        elif s == 3:
-            light = 'color: blue'
-        return light
+This notebook shows the step-by-step process of training the BERT model to identify positive or negative sentiment from Amazon using reviews for random products. The dataset was constructed by Xiang Zhang and provided by Kaggle user kritanjalijain. The original dataset had 1,800,000 training reviews and 400,000 testing reviews, which was too large for my computer to handle in a reasonable amount of time. This analysis was done using a randomly sampled 5% of the training data and 10% of the testing data. Ideally, all of the data would have been used, but that would have either required a lot more time or a lot more computers.
 
-    styled_df1 = df1.style.apply(lambda x: df2.applymap(light_up), axis=None).set_properties(**{'border-color': '#202020', 'background-color': '#202020','width':'75px','height':'75px','font-size':'25pt','text-align': 'center'})
-    display(styled_df1)
-```
+# [Project 4: Exploratory Data Analysis - Data Jobs Salaries](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-)
+Exploratory data analysis on glassdoor data of data analyst and data science jobs across the nation.
+
+This was an exploratory data analysis of data analyst and data science jobs datasets from kaggle.com by user Larxel. The user scraped data from glassdoor for the job queries "data analyst" and "data scientist" and posted them as csv files. Using these csv files, I began cleaning the data and visualizing them on Jupyter Notebook. Using seaborn and matplotlib, I was able to display charts and pivot tables to that showed results such as correlation between categories, locations that appeared most frequently, and average salaries based on job title.
+
+![](https://github.com/leeharry709/data-analyst-scientist-salaries-EDA-/blob/main/media/download%20(1).png?raw=true)
