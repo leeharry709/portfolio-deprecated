@@ -7,7 +7,7 @@
 <p align="center">
   <img width = "600" height= "600" src="https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png">
 </p>
-<p align="center">(Digital word clock made using python)
+<p align="center">Digital word clock made using python
 
 # [Project 1: Natural Language Processing - Sentiment Analysis/Classification & BERT Model Training](https://github.com/leeharry709/portfolio/blob/main/Project%201%20-%20BERT%20for%20Amazon%20Review%20Classification%20(Binary%20Sentiment%20Analysis).ipynb)
 
