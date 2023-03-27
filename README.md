@@ -7,8 +7,10 @@
 <p align="center">
   <img width = "600" height= "600" src="https://raw.githubusercontent.com/leeharry709/word_clock/main/media/1215.png">
 </p>
-<p align="center">Digital word clock made using python
-
+<p align="center">
+  Digital word clock made using python
+<br>
+  
 # [Project 1: Natural Language Processing - Sentiment Analysis/Classification & BERT Model Training](https://github.com/leeharry709/portfolio/blob/main/Project%201%20-%20BERT%20for%20Amazon%20Review%20Classification%20(Binary%20Sentiment%20Analysis).ipynb)
 
 This notebook shows the step-by-step process of training the BERT model to identify positive or negative sentiment from Amazon using reviews for random products. The dataset was constructed by Xiang Zhang and provided by Kaggle user kritanjalijain. The original dataset had 1,800,000 training reviews and 400,000 testing reviews, which was too large for my computer to handle in a reasonable amount of time. This analysis was done using a randomly sampled 5% of the training data and 10% of the testing data. Ideally, all of the data would have been used, but that would have either required a lot more time or a lot more computers.
