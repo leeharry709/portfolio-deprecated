@@ -16,7 +16,7 @@ This model determines if a review is positive or negative in sentiment and has m
 
 This model is a very basic model and would definintely need to be fine-tuned even more and retrained using hyperparameters for even better results. Ultimately, this model is illustrative of the potentials in language processing even at it's most basic forms.
 
-# [Project 2: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/ripe-mango-detector)
+# [Project 2: Image Processing - Color Detection Using Euclidian Distance](https://github.com/leeharry709/portfolio/blob/main/Project%202%20-%20Image%20Processing%20-%20Color%20Detection%20Using%20Euclidian%20Distance.ipynb)
 Incrementally replaces pixels in a 100x100 image of a mango, prioritizing colors farthest from red.
 
 When looking at a single pixel of color, you get an array of 3 values (RGB). Pure red is [255, 0, 0], and every color has it's own unique combination of R, G, and B. By using the formula for Euclidian distance, you can effectively plot the RGB color on a 3 dimensional plot and find the distance between two colors.
